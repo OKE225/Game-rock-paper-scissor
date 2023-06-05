@@ -1,0 +1,97 @@
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#heading {
+  font-size: 2rem;
+  margin: 1rem 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
+#user-choice-container {
+  margin: 1rem 0 1.5rem 0;
+}
+
+#user-choice-container p {
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem 0;
+  padding: 0;
+}
+
+button {
+  font-size: 16px;
+  width: 100px;
+  height: 40px;
+  margin: 0 0.05rem;
+  border-radius: 1rem;
+}
+
+button:active {
+  background: gainsboro;
+}
+
+button:first-of-type {
+  margin-left: 0;
+}
+
+.choice {
+  margin: 0;
+  padding: 0;
+}
+
+#result {
+  font-weight: 600;
+}
+
+.text-container {
+  margin: 0;
+  padding: 0;
+}
+
+#flex-section {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#flex-section p {
+  margin: 0;
+  padding: 0;
+}
+
+#flex-right {
+  margin: 0 0.75rem;
+}
+
+#result-and-bilans {
+  margin: 1rem 0;
+}
+
+#result-and-bilans p {
+  margin: 0;
+  padding: 0;
+}
+
+#win {
+  color: limegreen;
+}
+
+#draw {
+  color: gray;
+}
+
+#lose {
+  color: red;
+}
