@@ -73,7 +73,14 @@ function resultGame() {
       result.style.color = "red";
       result.innerHTML = "You Lose";
       ++lose.innerHTML;
-    } else {
+    } else if (
+      (userChoice.innerHTML === "Rock" &&
+        computerChoice.innerHTML === "Rock") ||
+      (userChoice.innerHTML === "Paper" &&
+        computerChoice.innerHTML === "Paper") ||
+      (userChoice.innerHTML === "Scissor" &&
+        computerChoice.innerHTML === "Scissor")
+    ) {
       result.style.color = "gray";
       result.innerHTML = "Draw";
       ++draw.innerHTML;
