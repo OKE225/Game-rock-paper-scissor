@@ -45,8 +45,8 @@ function computerRandomChoice() {
     } else if (randomMove === 3) {
       computerChoice.innerHTML = "Scissor";
     }
-    resultGame();
-  }, 100);
+  }, 200);
+  resultGame();
 }
 
 function resultGame() {
@@ -85,5 +85,5 @@ function resultGame() {
       result.innerHTML = "Draw";
       ++draw.innerHTML;
     }
-  }, 150);
+  }, 200);
 }
